@@ -35,7 +35,7 @@ async function getTenantData(tenant: string): Promise<TenantData | null> {
   }
 }
 
-const Home = async ({ headers }: { headers: Headers }) => {
+const Home = async () => {
   const tenant = cookies().get("tenant")?.value ?? "in";
   const tenantData = await getTenantData(tenant);
 
