@@ -1,0 +1,30 @@
+{
+  "bannerImage": "/perfume_bg.jpeg",
+  "featuredGifts": [
+    {
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores autem commodi, ratione, quos ad quibusdam magnam possimus assumenda vero et, eligendi labore non.",
+      "image": "/perfume1.webp",
+      "price": "€12.00",
+      "title": "Bleu Unisex Parfum Body Spray - 120ml"
+    },
+    {
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      "image": "/perfume2.webp",
+      "price": "€20.00",
+      "title": "BLEU DE CHANEL"
+    },
+    {
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "image": "/perfume3.webp",
+      "price": "€32.00",
+      "title": "Recharge Men Luxury Perfume"
+    },
+    {
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "image": "/perfume4.webp",
+      "price": "€30.00",
+      "title": "Recharge Men Luxury Perfume"
+    }
+  ],
+  "title": "French Gift Store"
+}
