@@ -36,8 +36,7 @@ async function getTenantData(tenant: string): Promise<TenantData | null> {
 }
 
 const Home = async () => {
-  //cookies().get("tenant")?.value ??
-  const tenant = "in";
+  const tenant = cookies().get("tenant")?.value ?? "fr";
   const tenantData = await getTenantData(tenant);
 
   if (!tenantData) {
@@ -46,7 +45,9 @@ const Home = async () => {
 
   return (
     <div className="container-fluid">
-      <h1 className="fw-bold m-sm-5 py-sm-3 py-3 text-center title">
+      <h1
+        className="fw-bold m-sm-5 py-sm-3 py-3 text-center title"
+      >
         {tenantData.title}
       </h1>
       <header className={styles.header}>

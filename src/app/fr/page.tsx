@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import Image from "next/image";
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "../../styles/Home.module.css";
+import styles from "../../../styles/Home.module.css";
 import { cookies } from "next/headers";
 
 interface Gift {
@@ -37,7 +37,7 @@ async function getTenantData(tenant: string): Promise<TenantData | null> {
 
 const Home = async () => {
   //cookies().get("tenant")?.value ??
-  const tenant = "in";
+  const tenant = "fr";
   const tenantData = await getTenantData(tenant);
 
   if (!tenantData) {
